@@ -17,20 +17,27 @@
     />
   </head>
   <body>
-    <div class="searchbar searchbar--large">
+    <form
+      class="searchbar searchbar--large"
+      data-qa="big"
+    >
       <img
         src="images/Search.svg"
         alt="searchbar icon"
         class="searchbar__icon"
       />
+
       <input
         class="searchbar__input"
         type="text"
         data-qa="keypress"
         placeholder="Try “Los Angeles“"
       />
-    </div>
-    <div class="searchbar searchbar--small">
+    </form>
+    <form
+      class="searchbar searchbar--small"
+      data-qa="small"
+    >
       <img
         src="images/Search.svg"
         alt="searchbar icon"
@@ -42,6 +49,6 @@
         data-qa="hover"
         placeholder="Try “Los Angeles“"
       />
-    </div>
+    </form>
   </body>
 </html>
