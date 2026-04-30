@@ -28,6 +28,10 @@ body {
 
 .searchbar__icon {
   display: block;
+  background-image: url('./images/Search.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .searchbar__input {
@@ -36,6 +40,11 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   border: none;
+}
+
+.searchbar__input:focus {
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  outline: none;
 }
 
 .searchbar--large {
